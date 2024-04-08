@@ -86,4 +86,34 @@
 ## 이미지태그 `img`
 * `img src="" alt="" `
 * alt = 속성, 대체텍스트 사용
-* src = 링크태그 사용, 이미지 경로 사용 
+* src = 링크태그 사용, 이미지 경로 사용
+## figure, figcaption 태그
+* figure = 사진을 감싸는 틀
+* figcaption = 사진의 캡션을 정의
+## video태그
+* autoplay = 사이트 들어가자마자 재생
+* mute = 음소거 
+* loop = 반복
+* controls = 영상내에 컨트롤 바
+## 유튜브 영상 퍼오기 
+* 영상을 틀고 소스코드 복사 후 붙여넣기 
+* 속성을 사용하고 싶을 경우 src 끝에 있는 영어 뒤에 ?autoplay=1 을 적구 그 이후를 쓰고 싶을 경우 &을붙이고 사용하면 된다
+* 예) src="https://www.youtube.com/embed/IpkzCH5FByw?autoplay=1&mute=1&loop=1&controls=1" 
+* autopaly=1 에서 =1일경우 ture =0일경우 faluse
+## 유튜브 영상을 편집하려구 다운받아야 할 경우는 
+* www.뒤에 ss를 붙이면 새창이 뜨고 거기서 다운받으면 된다.
+## class, id 많이 사용하는 키워드
+* wrapper, wrap, area 전체 묶는 영역
+* contents, container 중~소 묶는 영역
+* group, g 간단한 소그룹 영역
+* top, btm, left, right 레이아웃 방향을 의미하는 키워드 
+* 예 :  의미있는 단어_영역명 
+* 예시 : product_wrap, item_area, price_g, main_contents, top_btn
+## div, span 그룹태그
+### div
+* 인라인과 블록이 2개 이상 형제일 경우 묶어주는 그룹태그
+* 레이아웃 기준 1행에 2열 이상 배치일 경우 
+* 특정 의미를 가진 행에 같은 디자인 요소가 배치된 경우
+### span
+* 인라인이 2개 이상 형제일 경우 묶는 그룹태그
+* 의미없는 디자인 요소 인라인 처리 필요 시 사용
